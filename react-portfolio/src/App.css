@@ -3,5 +3,27 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  
 }
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.pages {
+  text-align: center;
+  margin-top: 20px;
+}
+.avatar {
+  margin-top: 25px;
+    float: left;
+    padding: 30px;
+}
+
+.bio {
+  margin-top: 45px;
+    padding: 35px;
+    margin-right: 20px;
+    text-align: left;
+}
+
