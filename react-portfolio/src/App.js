@@ -1,35 +1,60 @@
-import React from 'react';
-import './App.css';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
-import Main from './components/main';
+import React from "react";
+import "./App.css";
+import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
+
+import Main from "./components/main";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
-    <div style={{height: '300px', position: 'relative'}}>
-    <Layout fixedHeader>
-        <Header title={<span><span style={{ color: '#ddd' }}>Area / </span><strong>The Title</strong></span>}>
-            <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-            </Navigation>
-        </Header>
-        <Drawer title="Title">
-            <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-            </Navigation>
-        </Drawer>
-         <Content>
-           <div className="page-content"/>
-           <Main/>
-         </Content>
-    </Layout>
-</div>
-  )
+    <div>
+      <Navbar bg="light" expand="lg">
+        <Navbar.Brand href="#home">Jacob Vassas</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link href="/">HOME</Nav.Link>
+            <Nav.Link href="/about">ABOUT</Nav.Link>
+            <Nav.Link href="/contact">CONTACT</Nav.Link>
+            <Nav.Link href="/projects">PROJECTS</Nav.Link>
+            <Nav.Link href="/resume">RESUME</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+      <Main/>
+    </div>
+  );
 }
 
 export default App;
+
+// react-mdl old code
+
+{
+  /* // <div style={{height: '300px', position: 'relative'}}>
+    // <Layout fixedHeader>
+    //     <Header className="header-color" title={<span><span style={{ color: '#ddd' }}> </span><strong>Jacob Vassas</strong></span>}>
+    //         <Navigation>
+    //             <a href="/">HOME</a>
+    //             <a href="/resume">RESUME</a>
+    //             <a href="/aboutme">ABOUT</a>
+    //             <a href="/projects">PROJECTS</a>
+    //             <a href="/contact">CONTACT</a>
+    //         </Navigation>
+    //     </Header>
+    //     <Drawer title="JV">
+    //         <Navigation>
+    //             <a href="/">HOME</a>
+    //             <a href="/resume">RESUME</a>
+    //             <a href="/aboutme">ABOUT</a>
+    //             <a href="/projects">PROJECTS</a>
+    //             <a href="/contact">CONTACT</a>
+    //         </Navigation>
+    //     </Drawer>
+    //      <Content>
+    //        <div className="page-content"/>
+    //        <Main/>
+    //      </Content>
+    // </Layout> */
+}
