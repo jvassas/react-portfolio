@@ -33,19 +33,28 @@ h1 {
 
 .name-input {
   width: 40%;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 .email-input {
   width: 40%;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 .message-input {
   width: 70%;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 .submit {
-  margin-left: 30px;
+  margin-left: 40px;
+}
+
+.projects {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card-deck {
+  margin-bottom: 10px;
 }
