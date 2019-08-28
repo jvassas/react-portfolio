@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Row, Image, Col } from "react-bootstrap";
+import { Container, Image, Col } from "react-bootstrap";
 import Avatar from "../../src/selfie.png";
 
 

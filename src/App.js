@@ -1,10 +1,9 @@
 import React from "react";
 import "./App.css";
-import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
-import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 
 import Main from "./components/main";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -31,8 +30,8 @@ export default App;
 
 // react-mdl old code
 
-{
-  /* // <div style={{height: '300px', position: 'relative'}}>
+
+  // <div style={{height: '300px', position: 'relative'}}>
     // <Layout fixedHeader>
     //     <Header className="header-color" title={<span><span style={{ color: '#ddd' }}> </span><strong>Jacob Vassas</strong></span>}>
     //         <Navigation>
@@ -57,4 +56,3 @@ export default App;
     //        <Main/>
     //      </Content>
     // </Layout> */
-}
