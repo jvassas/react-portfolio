@@ -1,3 +1,11 @@
+/* Import google fonts */
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
 .jumbotron {
   background-image: url('../src/logo5.png');
   background-size: cover;
@@ -16,7 +24,7 @@
 }
 
 .card-text {
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
 h1 {
