@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Container, Image, Col } from "react-bootstrap";
 import Avatar from "../../src/selfie.png";
-
+// Imports font awesome for links
+// import { FaLinked } from "react-icons/fa";
 
 
 class AboutMe extends Component {
