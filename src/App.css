@@ -6,6 +6,7 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
+
 .jumbotron {
   background-image: url('../src/logo5.png');
   background-size: cover;
@@ -73,10 +74,15 @@ h1 {
 }
 
 .projects {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .card-deck {
+  padding-top: 20px;
   margin-bottom: 10px;
+}
+
+.card-footer {
+  text-align: center;
 }

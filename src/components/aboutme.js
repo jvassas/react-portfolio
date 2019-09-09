@@ -14,8 +14,6 @@ class AboutMe extends Component {
         <a href="https://www.linkedin.com/in/jacob-vassas-b46b9915a/"> LinkedIn </a>
         |
         <a href="https://github.com/jvassas"> Github </a>
-        |
-        <a href="https://github.com/jvassas"> Instagram </a>
         </div>
         <Col xs={6} md={4}>
           <Image

@@ -12,7 +12,7 @@ function App() {
         <Navbar.Brand href="#home"></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav className="navigation">
             <Nav.Link href="/">HOME</Nav.Link>
             <Nav.Link href="/about">ABOUT</Nav.Link>
             <Nav.Link href="/contact">CONTACT</Nav.Link>
