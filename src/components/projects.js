@@ -12,6 +12,8 @@ import Burg from "../../src/eatburger.png";
 import Port from "../../src/portfolio.png";
 import Train from "../../src/train.png";
 import Bam from "../../src/bamazon.png";
+import GOB from "../../src/gob.png";
+
 
 class Projects extends Component {
   render() {
@@ -90,17 +92,16 @@ class Projects extends Component {
             </Card.Footer>
           </Card>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img variant="top" src={GOB} />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>Get On Brand</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This card has even longer content
-                than the first to show that equal height action.
+                <p>Get On Brand is a React application that I created for a friend in need of a functioning e-commerce website to sell merchandise. The site features a Home page, About page and Products page.</p>
+                <p>Users are able to view products for sale, add items to a cart and buy items via the Paypal API. React and Bootstrap were utlized to create the layout of the website with a custom CSS style sheet. The node package 'Styled-Components' was also used to style minor portions of the site such as card displays and buttons. Navigate to the link to view the site and show support by purchasing some <strong>On Brand</strong> merchandise!</p>
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <small><a href="https://onbrand.netlify.com/">Netlify Link</a></small>
             </Card.Footer>
           </Card>
         </CardDeck>
