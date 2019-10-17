@@ -13,6 +13,7 @@ import Port from "../../src/portfolio.png";
 import Train from "../../src/train.png";
 import Bam from "../../src/bamazon.png";
 import GOB from "../../src/gob.png";
+import VTC from "../../src/vtc.png";
 
 
 class Projects extends Component {
@@ -21,7 +22,7 @@ class Projects extends Component {
       <div className="projects">
         <h1>Individual Projects</h1>
         <CardDeck>
-          <Card>
+          {/* <Card>
             <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
               <Card.Title>Card title</Card.Title>
@@ -67,7 +68,7 @@ class Projects extends Component {
           <Card>
             <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>Straka Photography</Card.Title>
               <Card.Text>
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
@@ -77,18 +78,18 @@ class Projects extends Component {
             <Card.Footer>
               <small className="text-muted">Last updated 3 mins ago</small>
             </Card.Footer>
-          </Card>
+          </Card> */}
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img variant="top" src={VTC} />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>VTC</Card.Title>
               <Card.Text>
-                This card has supporting text below as a natural lead-in to
-                additional content.{" "}
+                <p>VTC is a Telecommunications Consulting firm that was in need of a website. I wrote the application using AngularJS and Node. This project was my first time using the Angular framework and although it presented many challenges, I am very happy with the result.</p>
+                <p>The application features a standard home, about and services page, along with a contact form with validation and a testimonials page where clients are able to post reviews about their experience with the company. Bootstrap was used for mobile responsiveness and some media queries were added to ensure full responsiveness.</p>
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <small><a href="https://vtc.netlify.com/">Netlify Link</a></small>
             </Card.Footer>
           </Card>
           <Card>
