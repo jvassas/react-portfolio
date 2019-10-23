@@ -8,7 +8,7 @@ import Avatar from "../../src/selfie.png";
 class AboutMe extends Component {
   render() {
     return (
-      <Container>
+      <div className="container">
         <h1>About Me</h1>
         <div class="pages">
         <a href="https://www.linkedin.com/in/jacob-vassas-b46b9915a/"> LinkedIn </a>
@@ -32,7 +32,7 @@ class AboutMe extends Component {
         <p>During my spare time, you might see me at a Cleveland sporting event or a local micro-brewery tasting new drafts. I also love to stay active, whether that being an evening at the gym or running 5-on-5 at an open gym or the park. My personal interests include technology, urban areas and large cities, food, travel and menswear.
         </p>
         </div>
-      </Container>
+      </div>
     );
   }
 }

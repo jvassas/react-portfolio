@@ -5,12 +5,12 @@ class Resume extends Component {
     return (
       <div className="container">
         <div className="row">
-          <div className="col-12 col-sm-12">
+          <div className="col-sm-12">
             <h1 className="mb-5">Resume</h1>
           </div>
         </div>
         <div className="row">
-          <div className="col-6 text-center">
+          <div className="col-lg-6 text-center">
             <h4 className="mb-5">Summary</h4>
             <p className="text-left">
               Driven, personable and motivated individual with a cerfication in

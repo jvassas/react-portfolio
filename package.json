@@ -12,7 +12,12 @@
     "@fortawesome/free-regular-svg-icons": "^5.10.2",
     "@fortawesome/free-solid-svg-icons": "^5.10.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
+    "bunyan": "^1.8.12",
+    "bunyan-blackhole": "^1.1.1",
+    "bunyan-middleware": "^1.0.0",
     "cli": "^1.0.1",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
     "font-awesome": "^4.7.0",
     "heroku": "^7.29.0",
     "react": "^16.9.0",
@@ -23,10 +28,13 @@
     "react-scripts": "^3.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start:dev": "react-scripts start",
     "build": "react-scripts build",
+    "dev": "nodemon ./server.js",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start:local": "npm run build && npm run dev",
+    "start": "node ./server/index.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -44,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "nodemon": "^1.19.4",
     "react-image-resizer": "^1.3.0"
   }
 }
