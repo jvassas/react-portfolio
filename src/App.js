@@ -3,12 +3,13 @@ import "./App.css";
 import { Navbar, Nav } from 'react-bootstrap';
 
 import Main from "./components/main";
+import Footer from "./components/footer";
 // import { Link } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <Navbar bg="light" expand="lg">
+      <Navbar bg-light expand="lg">
         <Navbar.Brand href="#home"></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -22,6 +23,7 @@ function App() {
         </Navbar.Collapse>
       </Navbar>
       <Main/>
+      <Footer />
     </div>
   );
 }

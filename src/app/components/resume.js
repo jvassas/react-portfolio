@@ -5,7 +5,7 @@ class Resume extends Component {
     return (
       <div className="container">
         <div className="row">
-          <div className="col-sm-12">
+          <div className="col-sm-12 col-12">
             <h1 className="mb-5">Resume</h1>
           </div>
         </div>
@@ -30,6 +30,7 @@ class Resume extends Component {
             <p className="text-left">
               Bachelor of Health Science, Minor in Business
             </p>
+            <hr/>
             <p className="text-left">
               <strong>
                 <i>Case Western Reserve University</i>
@@ -61,7 +62,7 @@ class Resume extends Component {
               <li>Interpersonal skills</li>
             </ul>
           </div>
-          <div className="col-6 text-center">
+          <div className="col-lg-6 text-center">
             <h4 className="mb-5">Experience</h4>
             <p className="text-right">
               <strong>
@@ -85,6 +86,7 @@ class Resume extends Component {
                 log completed procedures to meet system-wide standard
               </li>
             </ul>
+            <hr/>
             <p className="text-right">
               <strong>
                 <i>Web Developer at Case Western Reserve University</i>
@@ -116,6 +118,7 @@ class Resume extends Component {
             <strong>
               <a href="https://onbrand.netlify.com/">Link to Get On Brand</a>
             </strong>
+            <hr/>
             <p className="text-center mt-3">
               <strong>
                 <i>CookBook</i>
@@ -133,6 +136,7 @@ class Resume extends Component {
                 Link to CookBook
               </a>
             </strong>
+            <hr/>
             <p className="text-center mt-3">
               <strong>
                 <i>CityGuide</i>

@@ -1,19 +1,19 @@
 import React, { Component } from "react";
 import { CardDeck, Card } from "react-bootstrap";
-import Cookbook from "../../src/cookbook.png";
-import NFL from "../../src/click-game.png";
-import LIRI from "../../src/liri.png";
-import City from "../../src/CityGuide.png";
-import Gif from "../../src/CarGif.png";
-import NBA from "../../src/NBATrivia.png";
-import Crystal from "../../src/CrystalCollector.png";
-import Hang from "../../src/SportsHangman.png";
-import Burg from "../../src/eatburger.png";
-import Port from "../../src/portfolio.png";
-import Train from "../../src/train.png";
-import Bam from "../../src/bamazon.png";
-import GOB from "../../src/gob.png";
-import VTC from "../../src/vtc.png";
+import Cookbook from "../assets/images/cookbook.png";
+import NFL from "../assets/images/click-game.png";
+import LIRI from "../assets/images/liri.png";
+import City from "../assets/images/CityGuide.png";
+import Gif from "../assets/images/CarGif.png";
+import NBA from "../assets/images/NBATrivia.png";
+import Crystal from "../assets/images/CrystalCollector.png";
+import Hang from "../assets/images/SportsHangman.png";
+import Burg from "../assets/images/eatburger.png";
+import Port from "../assets/images/portfolio.png";
+import Train from "../assets/images/train.png";
+import Bam from "../assets/images/bamazon.png";
+import GOB from "../assets/images/gob.png";
+import VTC from "../assets/images/vtc.png";
 
 
 class Projects extends Component {
