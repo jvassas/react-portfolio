@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Jumbotron, Container, CardDeck, Card, Col } from "react-bootstrap";
-import Code from "../assets/images/code-image.png";
-import Health from "../assets/images/healthcare-image.png";
-import Business from "../assets/images/business-image.png";
+import Code from "../../assets/images/code-image.png";
+import Health from "../../assets/images/healthcare-image.png";
+import Business from "../../assets/images/business-image.png";
 
 class Landing extends Component {
   render() {

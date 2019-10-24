@@ -2,8 +2,8 @@ import React from "react";
 import "./App.css";
 import { Navbar, Nav } from 'react-bootstrap';
 
-import Main from "./components/main";
-import Footer from "./components/footer";
+import Main from "./app/components/main";
+import Footer from "./app/components/footer";
 // import { Link } from "react-router-dom";
 
 function App() {

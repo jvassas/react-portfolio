@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Image } from "react-bootstrap";
-import Avatar from "../assets/images/selfie.png";
-import HTML from "../assets/images/html.png";
-import CSS from "../assets/images/css.png";
-import JS from "../assets/images/javascript.png";
-import Rlogo from "../assets/images/react.png";
+import Avatar from "../../assets/images/selfie.png";
+import HTML from "../../assets/images/html.png";
+import CSS from "../../assets/images/css.png";
+import JS from "../../assets/images/javascript.png";
+import Rlogo from "../../assets/images/react.png";
 
 class AboutMe extends Component {
   render() {
