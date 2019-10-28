@@ -10,7 +10,7 @@ app.log = logger({appName: 'Portfolio server', enabled: true, level: 'debug'});
 const bunyanMiddleware = require('bunyan-middleware'); //install
 app.use(bunyanMiddleware(app.log));
 
-const staticRoot = path.resolve(__dirname, '../');
+const staticRoot = path.resolve(__dirname, '../build');
 const port = process.env.PORT || 5000;
 
 // app.use(function(req, res, next) {
