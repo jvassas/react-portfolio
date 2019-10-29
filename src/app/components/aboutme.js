@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import { Image } from "react-bootstrap";
+import { CardDeck, Card, Col } from "react-bootstrap";
+import Code from "../../assets/images/code-image.png";
+import Health from "../../assets/images/healthcare-image.png";
+import Business from "../../assets/images/business-image.png";
 import Avatar from "../../assets/images/selfie.png";
 import HTML from "../../assets/images/html.png";
 import CSS from "../../assets/images/css.png";
@@ -9,10 +13,10 @@ import Rlogo from "../../assets/images/react.png";
 class AboutMe extends Component {
   render() {
     return (
-      <div className="container">
+      <div>
         <h1>About</h1>
         <Image src={Avatar} roundedCircle className="avatar" />
-      
+
         <div className="links">
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -42,7 +46,7 @@ class AboutMe extends Component {
         </div>
         <hr />
         <div className="row">
-          <div className="col-xs-12" id="p-about">
+          <div className="col-xs-12 bg-dark" id="p-about">
             <p>
               Some call me Jacob, most call me Jake. I am a certified Full-Stack
               Web Developer from Cleveland, Ohio. I recently graduated from Case
@@ -84,16 +88,8 @@ class AboutMe extends Component {
             </p>
           </div>
         </div>
-        {/* <div class="accomplishments">
-          <h3 class="text-center">Accomplishments</h3>
-          <ul>
-            <li>Dean's List Spring and Fall of 2018</li>
-            <li>Recipient of CSU Scholarship</li>
-            <li>Recipient of JHS Basketball Scholarship</li>
-          </ul>
-        </div> */}
         <p className="languages">
-          <Image src={HTML} className="html p-2" rounded/>
+          <Image src={HTML} className="html p-2" rounded />
           <Image src={CSS} className="css p-2" rounded />
           <Image src={JS} className="javascript p-2" rounded />
           <Image src={Rlogo} className="react p-2" />

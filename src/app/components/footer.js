@@ -3,7 +3,7 @@ import { Nav } from 'react-bootstrap';
 
 function Footer(/*props*/) {
   return (
-    <footer>
+    <footer className="bg-dark">
       
         <Nav>
          

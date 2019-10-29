@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Resume extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="p-5">
         <div className="row">
           <div className="col-sm-12 col-12">
             <h1 className="mb-5">Resume</h1>

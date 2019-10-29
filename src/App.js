@@ -9,7 +9,7 @@ import Footer from "./app/components/footer";
 function App() {
   return (
     <div>
-      <Navbar bg-light expand="lg">
+      <Navbar bg="dark" variant="dark" expand="lg">
         <Navbar.Brand href="#home"></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -22,7 +22,7 @@ function App() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <Main/>
+      <Main bg="dark" variant="dark"/>
       <Footer />
     </div>
   );

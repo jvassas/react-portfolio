@@ -4,20 +4,37 @@
 
 body {
   font-family: "Nunito", sans-serif;
-  /* background-color: rgba(228, 227, 227, 0.822); */
+  color: black;
+
 }
 
 h1, h2, h3, h3, h5, h6 {
   font-family: 'Spinnaker', sans-serif;
 }
 
+h1 {
+  font-size: 4rem;
+  color: black;
+
+
+}
 
 .jumbotron {
-  background-image: url("./assets/images/logo5.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh !important;
+  width: 100%;
 }
+
+#logo {
+  width: 100%;
+}
+
+#decor {
+  padding: 1.3rem;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+
 
 .card-title {
   text-align: center;
@@ -75,7 +92,10 @@ button {
 }
 
 #p-about {
-  padding: 2rem;
+  padding: 4rem;
+  margin: auto;
+  color: white;
+  font-size: 1.1rem;
 }
 
 .languages {
@@ -153,14 +173,14 @@ footer {
   background-color: #F8F8F8;
   margin: 10rem 0 0;
   height: 5rem;
+  color: white;
 }
 
-/* begin media queries */
-@media only screen and (min-width: 320px) {
-  .jumbotron {
-    height: 55vh;
-    background-size: cover;
-  }
+/* begin media queries */ 
+ @media only screen and (max-width: 479px) {
+  #logo {
+    width: 103%;
+}
 }
 
 @media only screen and (min-width: 801px) and (min-width: 1025px) and (min-width: 1281px) {

@@ -1,16 +1,52 @@
 import React, { Component } from "react";
-import { Jumbotron, Container, CardDeck, Card, Col } from "react-bootstrap";
+import { Container, CardDeck, Card, Col } from "react-bootstrap";
 import Code from "../../assets/images/code-image.png";
 import Health from "../../assets/images/healthcare-image.png";
 import Business from "../../assets/images/business-image.png";
+import Dlogo from "../../assets/images/darklogo.png";
+import Jumbo from "./jumbtron";
+import Cle from "../../assets/images/cle.png";
+import Palm from "../../assets/images/palm.png";
+import Colorado from "../../assets/images/colorado.png";
+import Wine from "../../assets/images/wine.png";
+import Browns from "../../assets/images/browns.png";
+import Edge from "../../assets/images/edge.png";
 
 class Landing extends Component {
   render() {
     return (
-      <div className="jumbo">
-        <Jumbotron fluid>
-          <Container />
-        </Jumbotron>
+      <div>
+        <Jumbo />
+        <div className="row bg-dark">
+          {/* <div className="container text-center"> */}
+
+            <div className="col-xs-12 col-md-6 col-lg-6 text-center">
+              <img src={Cle} id="decor" alt="cle" />
+            </div>
+
+            <div className="col-xs-12 col-md-6 col-lg-6 text-center">
+              <img src={Colorado} id="decor" alt="palm" />
+            </div>
+            
+            <div className="col-xs-12 col-md-6 col-lg-6 text-center">
+              <img src={Browns} id="decor" alt="cle" />
+            </div>
+
+            <div className="col-xs-12 col-md-6 col-lg-6 text-center">
+              <img src={Wine} id="decor" alt="palm" />
+            </div>
+      
+            <div className="col-xs-12 col-md-6 col-lg-6 text-center">
+              <img src={Palm} id="decor" alt="cle" />
+            </div>
+
+            <div className="col-xs-12 col-md-6 col-lg-6 text-center">
+              <img src={Edge} id="decor" alt="palm" />
+            </div>
+
+          {/* </div> */}
+        </div>
+
         <Col xs={12} md={12} lg={12}>
           <CardDeck className="skills">
             <Card>
