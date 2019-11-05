@@ -20,7 +20,7 @@ class Projects extends Component {
   render() {
     return (
       <div className="projects">
-        <h1>Individual Projects</h1>
+        <h1 className="main-title">Individual Projects</h1>
         <CardDeck>
           {/* <Card>
             <Card.Img variant="top" src="holder.js/100px160" />

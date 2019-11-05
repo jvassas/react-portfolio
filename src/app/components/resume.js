@@ -6,12 +6,12 @@ class Resume extends Component {
       <div className="p-5">
         <div className="row">
           <div className="col-sm-12 col-12">
-            <h1 className="mb-5">Resume</h1>
+            <h1 className="mb-5 main-title">Resume</h1>
           </div>
         </div>
         <div className="row">
           <div className="col-lg-6 text-center">
-            <h4 className="mb-5">Summary</h4>
+            <h4 className="mb-5 main-title">Summary</h4>
             <p className="text-left">
               Driven, personable and motivated individual with a cerfication in
               Full-Stack Web Development. Currently seeking a role as an
@@ -20,7 +20,7 @@ class Resume extends Component {
               web development.{" "}
             </p>
             <br></br>
-            <h4 className="mb-4">Education</h4>
+            <h4 className="mb-4 main-title">Education</h4>
             <p className="text-left">
               <strong>
                 <i>Cleveland State University</i>
@@ -41,7 +41,7 @@ class Resume extends Component {
               Full-Stack Flex Coding Bootcamp Certification
             </p>
             <br></br>
-            <h4 className="mb-4">Skills</h4>
+            <h4 className="mb-4 main-title">Skills</h4>
             <ul class="text-left">
               <li>HTML5, CSS3</li>
               <li>Bootstrap, Materialize, Semantic UI</li>
@@ -63,7 +63,7 @@ class Resume extends Component {
             </ul>
           </div>
           <div className="col-lg-6 text-center">
-            <h4 className="mb-5">Experience</h4>
+            <h4 className="mb-5 main-title">Experience</h4>
             <p className="text-right">
               <strong>
                 <i>
@@ -102,7 +102,7 @@ class Resume extends Component {
               <li>Received Full-Stack Web Development Certificate</li>
             </ul>
             <br></br>
-            <h4 className="mb-5">Projects and Applications</h4>
+            <h4 className="mb-5 main-title">Projects and Applications</h4>
             <p className="text-center">
               <strong>
                 <i>Get On Brand</i>

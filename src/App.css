@@ -1,6 +1,7 @@
 /* Import google fonts */
 @import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Play|Spinnaker&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cinzel:900|Inconsolata|Josefin+Sans&display=swap");
 
 body {
   font-family: "Nunito", sans-serif;
@@ -8,16 +9,10 @@ body {
 
 }
 
-h1, h2, h3, h3, h5, h6 {
+.main-title {
   font-family: 'Spinnaker', sans-serif;
 }
 
-h1 {
-  font-size: 4rem;
-  color: black;
-
-
-}
 
 .jumbotron {
   width: 100%;
@@ -27,13 +22,41 @@ h1 {
   width: 100%;
 }
 
+.car-title {
+  font-size: 3rem;
+  padding: auto;
+}
+
+.onesText {
+  color: black;
+  margin-bottom: 5rem;
+}
+
+.twosText {
+  color: black;
+  margin-bottom: 5rem;
+}
+
+.threesText {
+  color: black;
+  margin-bottom: 5rem;
+}
+
+#pics {
+  padding-top: 7rem;
+}
+
 #decor {
-  padding: 1.3rem;
+  padding: 1rem;
   margin: auto;
   width: 100%;
   height: 100%;
+  opacity: 60%;
 }
 
+#decor:hover {
+  opacity: 100%;
+}
 
 
 .card-title {
@@ -46,7 +69,8 @@ h1 {
 
 h1 {
   text-align: center;
-  margin: 2rem;
+  margin: auto;
+  padding: 1rem;
 }
 
 
@@ -100,7 +124,8 @@ button {
 
 .languages {
   width: 100%;
-  margin-top: 0.5rem;
+  margin-top: -0.5rem;
+  padding-bottom: 5rem;
   text-align: center;
 }
 
@@ -189,5 +214,243 @@ footer {
   }
   #form-email {
     width: 25rem;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .car-title {
+    font-size: 0.8rem;
+  }
+  
+  .onesText {
+    color: black;
+  }
+
+  .univ {
+    font-size: 0.3rem;
+  }
+
+  .deg {
+    font-size: 0.2rem;
+  }
+  
+  .twosText {
+    color: black;
+    margin-bottom: 0.5rem;
+  }
+
+  .services {
+    font-size: 1rem;
+  }
+  
+  .threesText {
+    color: black;
+   
+  }
+
+  .seek {
+    font-size: 0.3rem;
+    padding: 0;
+  }
+
+  .car-btn {
+    font-size: 0.3rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .car-title {
+    font-size: 1rem;
+  }
+  
+  .onesText {
+    color: black;
+    margin-bottom: -1.6rem;
+  }
+
+  .univ {
+    font-size: 0.8rem;
+  }
+
+  .deg {
+    font-size: 0.5rem;
+  }
+  
+  .twosText {
+    color: black;
+    margin-bottom: -0.6rem;
+  }
+
+  .services {
+    font-size: 1rem;
+  }
+  
+  .threesText {
+    color: black;
+    margin-bottom: -0.5rem;
+  }
+
+  .seek {
+    font-size: 0.5rem;
+    padding: 0;
+  }
+
+  .car-btn {
+    font-size: 0.3rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .car-title {
+    font-size: 3rem;
+  }
+  
+  .onesText {
+    color: black;
+    margin-bottom: -0.1rem;
+    
+  }
+
+  .univ {
+    font-size: 1.2rem;
+  }
+
+  .deg {
+    font-size: 0.8rem;
+  }
+  
+  .twosText {
+    color: black;
+    margin-bottom: 2rem;
+  }
+
+  .services {
+    font-size: 1.2rem;
+  }
+  
+  .threesText {
+    color: black;
+    margin-bottom: -0.5rem;
+  }
+
+  .seek {
+    font-size: 1.2rem;
+    padding-top: 0.2rem;
+    
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .car-title {
+    font-size: 3rem;
+    padding: auto;
+   
+  }
+  
+  .onesText {
+    color: black;
+    margin-bottom: 1rem;
+  }
+
+  .univ {
+    font-size: 1.7rem;
+  }
+
+  .deg {
+    font-size: 1rem;
+  }
+  
+  .twosText {
+    color: black;
+    margin-bottom: 3rem;
+  }
+
+  .services {
+    font-size: 1rem;
+  }
+  
+  .threesText {
+    color: black;
+    margin-bottom: 3rem;
+  }
+
+  .seek {
+    font-size: 1rem;
+    padding-top: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .car-title {
+    font-size: 5rem;
+    padding-top: 1rem;
+  }
+  
+  .onesText {
+    color: black;
+    margin-bottom: 1rem;
+  }
+
+  .univ {
+    font-size: 2rem;
+  }
+
+  .deg {
+    font-size: 1rem;
+  }
+  
+  .twosText {
+    color: black;
+    margin-bottom: 2.2rem;
+  }
+
+  .services {
+    font-size: 1.5rem;
+    padding: 0.3rem;
+  }
+  
+  .threesText {
+    color: black;
+    margin-bottom: 4rem;
+  }
+
+  .seek {
+    font-size: 1.5rem;
+    padding-top: 0rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .car-title {
+    font-size: 5rem;
+    padding: auto;
+  }
+  
+  .onesText {
+    color: black;
+    margin-bottom: 8rem;
+  }
+
+  .univ {
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+  .deg {
+    font-size: 1.5rem;
+  }
+  
+  .twosText {
+    color: black;
+    margin-bottom: 5rem;
+  }
+
+  .services {
+    font-size: 1.5rem;
+    padding: 0.8rem;
+  }
+  
+  .threesText {
+    color: black;
+    margin-bottom: 6rem;
   }
 }

@@ -14,7 +14,7 @@ class AboutMe extends Component {
   render() {
     return (
       <div>
-        <h1>About</h1>
+        <h1 className="main-title">About</h1>
         <Image src={Avatar} roundedCircle className="avatar" />
 
         <div className="links">
@@ -88,7 +88,7 @@ class AboutMe extends Component {
             </p>
           </div>
         </div>
-        <p className="languages">
+        <p className="languages bg-dark">
           <Image src={HTML} className="html p-2" rounded />
           <Image src={CSS} className="css p-2" rounded />
           <Image src={JS} className="javascript p-2" rounded />

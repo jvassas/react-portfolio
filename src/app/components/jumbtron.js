@@ -6,7 +6,7 @@ export default class Jumbo extends Component {
     render() {
         return (
             <div>
-                 <img src={Dlogo} class="img-fluid fullscreen" id="logo" />
+                 <img src={Dlogo} class="img-fluid fullscreen" id="logo" alt="jumbo" />
                 
             </div>
         );
